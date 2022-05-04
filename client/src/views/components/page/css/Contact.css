@@ -1,0 +1,7 @@
+.font_contact-link {
+    color:black;
+}
+.font_contact-link:hover {
+    color:red;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.font-link-menu{
+    color: #fff;
+}
+
+.font-link-menu:hover{
+    text-decoration: none;
+    color: #fff
+}
+.color-container{
+    height: 50px;
+}
+.color-container:hover{
+    background-color: #40ADFF;
+    border-radius: 10px;
+}
+@media screen and (max-width:880px){
+    .icon_span{
+        display:none;
+    }
+    .icon_icon{
+        font-size: 32px
+    }
+    .color-container{
+        height: 55px;
+    }
+    .icon_center{
+        margin:auto;
+        padding-right: 10px
+    }
+}

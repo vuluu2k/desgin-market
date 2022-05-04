@@ -1,0 +1,48 @@
+.btn-floating-quote {
+	position: fixed;
+  width: 50px;
+  height:50px;
+	left: 1rem;
+	top: 30%;
+	background-color: #343A40;
+	border: 1px solid #343A40;
+  z-index: 1;
+  border-radius:50%;
+}
+.btn-floating-cart:hover,
+.btn-floating-quote:hover {
+	background-color: #FF0000;
+	border: 1px solid #FF0000;
+}
+.btn-floating-cart {
+	position: fixed;
+	width: 50px;
+	height:50px;
+	left: 1rem;
+	top: 40%;
+	background-color: #343A40;
+	border: 1px solid #343A40;
+	z-index: 1;
+	border-radius:50%;
+}
+.spinner-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.btn_addCar-admin{
+	position: fixed;
+	bottom:6%;
+	right:4%;
+}
+.btn_addCar-admin>button{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+} 
+.text-red{
+	color:#C82333;
+}

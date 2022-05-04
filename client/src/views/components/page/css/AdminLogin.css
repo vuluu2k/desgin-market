@@ -1,0 +1,24 @@
+.full-height{
+	position: relative;
+    background-image:url('https://res.cloudinary.com/dcfcvl23s/image/upload/v1648987401/tien/1648220500435_rs0zjo.jpg') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:top;
+	height: 100vh;
+}
+
+.dark-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+.login-inner {
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+    color:white;
+}

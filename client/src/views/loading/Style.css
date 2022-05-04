@@ -1,0 +1,10 @@
+
+.count_cart{
+    width:22px;
+    height:22px;
+    border-radius: 50%;
+    background-color:#eeeff1;
+    position: absolute;
+    top:-10px;
+    right: 0;
+}

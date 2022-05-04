@@ -1,0 +1,24 @@
+.font-link {
+    color:white;
+}
+.font-link:hover{
+    color:red;
+    text-decoration: none;
+}
+.mt-12{
+    margin-top:12px;
+}
+.map-responsive{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+}
+
+.map-responsive iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100% !important;
+    width:100% !important;
+}

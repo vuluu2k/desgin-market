@@ -1,0 +1,15 @@
+/* VIEWER */
+
+.font-custom { 
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height:26px;
+}
+
+/* ADMIN */
+.head {
+    height:40px;
+    background-color:#F4F5F7;
+    position:fixed;
+    width:75%;
+}

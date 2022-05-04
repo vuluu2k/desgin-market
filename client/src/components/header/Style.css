@@ -1,0 +1,43 @@
+.SubTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height:35px;
+    font-size: 14.4px;
+}
+.topBar {
+    height:35px;
+    border-bottom: 2px solid #343A40;
+}
+.IconClass{
+    font-weight: bold;
+}
+.centerBar{
+    height:101px;
+}
+.gps-font{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.font-logo{
+    font-size:25px;
+    font-weight: bolder;
+    color:#0C1B51;
+}
+.icon_link{
+    margin-right:5px;
+    color:#212529;
+    font-size: 14px;
+}
+.icon_link:hover{
+    color:red;
+}
+@media screen and (max-width:1182px) {
+    .gps-bar{
+        display:none;
+    }
+}
+@media screen and (max-width:768px){
+    .font-logo,.IconClass{
+        display:none;
+    }
+}

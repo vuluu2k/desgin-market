@@ -1,0 +1,16 @@
+.title {
+    color:red;
+    font-size: 18px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.content {
+    margin-left: 10px
+}
+.font_installment-link {
+    color:black;
+}
+.font_installment-link:hover {
+    color:red;
+    text-decoration: none;
+}
