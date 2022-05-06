@@ -7,7 +7,7 @@ export default function Confirm() {
                 Bạn đã gửi yêu cầu thanh toán sẽ có một cuộc gọi xác nhận và hướng dẫn bạn thanh toán.
                 <br />
                 Mọi thắc mắc bạn có thể liên hệ trực tiếp với chúng tôi qua số điện thoại: 
-                <a href="tel:0898709170"> 0898709170</a>
+                <a href="tel:0379218450"> 0379218450</a>
             </h1>
         </div>
     )

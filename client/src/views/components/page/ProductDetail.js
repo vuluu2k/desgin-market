@@ -28,7 +28,7 @@ export default function ProductDetail({products,productsLoading}) {
     const categoryView=()=>{
         
         if(productSlug.category==="graphics"){
-            return "Ấn phẩm truyền thống"
+            return "Ấn phẩm truyền thÔng"
         }
         if(productSlug.category==="logo"){
             return "Nhận diện thương hiệu"

@@ -4,15 +4,15 @@
   height:50px;
 	left: 1rem;
 	top: 30%;
-	background-color: #343A40;
-	border: 1px solid #343A40;
+	background-color: #9796f0;
+	border: 1px solid #9796f0;
   z-index: 1;
   border-radius:50%;
 }
 .btn-floating-cart:hover,
 .btn-floating-quote:hover {
-	background-color: #FF0000;
-	border: 1px solid #FF0000;
+	background-color: #fbc7d4;
+	border: 1px solid #fbc7d4;
 }
 .btn-floating-cart {
 	position: fixed;
@@ -20,8 +20,8 @@
 	height:50px;
 	left: 1rem;
 	top: 40%;
-	background-color: #343A40;
-	border: 1px solid #343A40;
+	background-color: #9796f0;
+	border: 1px solid #9796f0;
 	z-index: 1;
 	border-radius:50%;
 }
@@ -45,4 +45,8 @@
 } 
 .text-red{
 	color:#C82333;
+}
+
+.bg-dark{
+	background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
 }

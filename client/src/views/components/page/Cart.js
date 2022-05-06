@@ -89,23 +89,7 @@ export default function Cart() {
                                     <Button to="/pay" as={Link} variant="dark" style={{width:'100%',fontWeight:'600'}}>TIẾN HÀNH THANH TOÁN</Button>
                                 </th>
                             </tr>
-                            <tr>
-                                <td colSpan="2" style={{padding:"0"}}>
-                                    <div variant="danger" 
-                                        style={{
-                                            backgroundColor:'#DC3545', width:'100%',
-                                            height:'38px',lineHeight:'38px',
-                                            textAlign:'left',fontWeight:'600',
-                                            color:'#fff',borderRadius:'5px'
-                                        }} 
-                                    >
-                                        <i style={{marginLeft:'10px'}} className="fas fa-tags"></i>
-                                        <span style={{marginLeft:'5px'}}>
-                                            PHIẾU ƯU ĐÃI
-                                        </span>
-                                    </div>
-                                </td>
-                            </tr>
+
                         </tbody>
                     </Table>
                 </Col>

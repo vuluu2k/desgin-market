@@ -3,7 +3,7 @@ import React from 'react'
 export default function InforContact({css}) {
     return (
         <p style={{fontWeight:'bolder'}}>
-            <strong>MarketDesignHAUI</strong>
+            <strong>Market Design HAUI</strong>
             <br/>
             <img src="http://hyundaimotorvn.com/wp-content/uploads/2019/04/11.png" alt="" width="15" height="22"/> 138 Phạm Văn Đồng- Xuân Đỉnh- Bắc Từ Liêm- Hà Nội
             <br/>

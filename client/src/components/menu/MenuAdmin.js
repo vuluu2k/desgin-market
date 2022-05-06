@@ -12,7 +12,7 @@ export default function MenuAdmin() {
 
     return (
         <>
-            <div style={{width: '25%', height: '500vh',backgroundColor:'#0091FF',position:'fixed'}}>
+            <div style={{width: '25%', height: '500vh',position:'fixed'}} className="bg-dark" >
                 <center><h4 className="text-white pt-3"><i className="fas fa-home"></i></h4></center>
                 <hr />
                 <div>
@@ -22,7 +22,7 @@ export default function MenuAdmin() {
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="fas fa-image"></i>
-                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Sản phẩm</span>
+                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Quản lý sản phẩm</span>
                                     </div>
                                 </div>
                             </Link>
@@ -43,7 +43,7 @@ export default function MenuAdmin() {
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-phone-alt"></i>
-                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Nhận thông tin</span>
+                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Nhận thông tin báo giá</span>
                                     </div>
                                 </div>
                             </Link>
@@ -53,7 +53,7 @@ export default function MenuAdmin() {
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-comments"></i>
-                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Đánh giá</span>
+                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Quản lý đánh giá</span>
                                     </div>
                                 </div>
                             </Link>
@@ -65,7 +65,7 @@ export default function MenuAdmin() {
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-money-check-alt"></i>
-                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Thanh toán</span>
+                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Quản lý đơn hàng</span>
                                     </div>
                                 </div>
                             </Link>
@@ -75,14 +75,14 @@ export default function MenuAdmin() {
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-sliders-h"></i>
-                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Thay đổi silder</span>
+                                        <span className="icon_span" style={{paddingLeft:'3px',fontSize:'18px',fontWeight:'bolder'}}>Quản lý silde</span>
                                     </div>
                                 </div>
                             </Link>
                         </div>
                      
                         <div>
-                            <Button onClick={displayConfirm} className='font-link-menu' style={{width:'100%',padding:'0',borderRadius:'10px',backgroundColor:'#0091FF',border:'none'}}>
+                            <Button onClick={displayConfirm} className='font-link-menu' style={{width:'100%',padding:'0',borderRadius:'10px',backgroundColor:'#9796f0',border:'none'}}>
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-sign-out-alt"></i>

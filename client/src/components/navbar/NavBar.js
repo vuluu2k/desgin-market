@@ -15,7 +15,7 @@ export default function NavBar({products,news}) {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link to="/home" as={Link} className="font-custom" active >Trang chủ</Nav.Link>
-                        <Nav.Link to="/introduce" as={Link} className="font-custom">Giới thiệu</Nav.Link>
+                        <Nav.Link to="/introduce" as={Link} className="font-custom"></Nav.Link>
                         {/* <NavDropdown title="Sản phẩm" id="basic-nav-dropdown" className="font-custom">
                             {products.map(product=>(
                                 <div key={product._id}>
@@ -23,7 +23,7 @@ export default function NavBar({products,news}) {
                                 </div>
                             ))}
                         </NavDropdown> */}
-                        <Nav.Link to="/products/publications" as={Link} className="font-custom">ấn phẩm truyền thống </Nav.Link>
+                        <Nav.Link to="/products/publications" as={Link} className="font-custom">ấn phẩm truyền thÔng </Nav.Link>
                         
                         <Nav.Link to="/products/trademark" as={Link} className="font-custom">nhận diện thương hiệu</Nav.Link>
                         <Nav.Link to="/products/print" as={Link} className="font-custom">in ấn</Nav.Link>

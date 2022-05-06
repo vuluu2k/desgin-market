@@ -13,6 +13,7 @@
     background-color: #40ADFF;
     border-radius: 10px;
 }
+
 @media screen and (max-width:880px){
     .icon_span{
         display:none;
