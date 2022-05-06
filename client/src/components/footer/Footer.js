@@ -18,17 +18,17 @@ export default function Footer({products,image}) {
                                 <p className='mt-12'>
                                     <strong>DESIGN MARKET</strong>
                                     <br/>
-                                    <img src="http://hyundaimotorvn.com/wp-content/uploads/2019/04/11.png" alt="" width="15" height="22"/> Đại học công Nghiệp Hà Nội- Bắc Từ Liêm- Hà Nội
+                                    <i className="fa-solid fa-location-dot" style={{color:"White"}}></i> Đại học công Nghiệp Hà Nội- Bắc Từ Liêm- Hà Nội
                                     <br/>
                                     <i className="fa-solid fa-phone" style={{color:"White"}}></i>
                                     <a href="tel:0379218450" className="font-link"> 0379218450</a>
                                     <br/>
-                                    <img src="http://hyundaimotorvn.com/wp-content/uploads/2019/04/14.png" alt="" width="17" height="12"/>
+                                    <i className="fa-solid fa-envelope" style={{color:"White"}}></i>
                                     <span>
-                                        <a href="mailto:laptrinhvn2s@gmail.com" className="font-link"> duongthuytien025@gmail.com</a>    
+                                        <a href="mailto:duongthuytien025@gmail.com" className="font-link"> duongthuytien025@gmail.com</a>    
                                     </span>
                                     <br/>
-                                    <img src="http://hyundaimotorvn.com/wp-content/uploads/2019/04/15.png" alt="" width="17" height="21"/> <a href="https://www.marketdesignco.com/">https://designmarket2k.netlify.app/home</a>
+                                    <i className="fa-solid fa-link" style={{color:"White"}}></i> <a href="https://designmarket2k.netlify.app/home">https://designmarket2k.netlify.app/home</a>
                                 </p>
                                 
          
