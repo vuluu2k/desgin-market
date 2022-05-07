@@ -23,16 +23,7 @@ export default function Header({products}) {
             <div>
                 <Container className="d-flex justify-content-between align-items-center centerBar w-100">
                     <div>
-                        <img src="https://res.cloudinary.com/dtmlbvagx/image/upload/v1651813861/design/LOGO_WEB-01_ut9yxn.png" alt="Logo Design Market" height="85"/>
-                    </div>
-                    <div className="gps-bar">
-                        <div className="d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-phone-flip"></i>
-                            <div className="gps-font">Liên Hệ Ngay : 0379218450</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="font-logo">Đồ Họa Chuyên Nghiệp</div>
+                        <img src="https://res.cloudinary.com/dtmlbvagx/image/upload/v1651896217/design/LOGO_WEB-01_ky1xii.png" alt="Logo Design Market" height="85"/>
                     </div>
                 </Container>
             </div>

@@ -82,7 +82,7 @@ export default function MenuAdmin() {
                         </div>
                      
                         <div>
-                            <Button onClick={displayConfirm} className='font-link-menu' style={{width:'100%',padding:'0',borderRadius:'10px',border:'none'}}>
+                            <Button onClick={displayConfirm} className='font-link-menu' style={{width:'100%',padding:'0',borderRadius:'10px',border:'none',backgroundColor:'rgba(0,0,0,0)'}}>
                                 <div className="color-container d-flex align-items-center">
                                     <div className="icon_center" style={{paddingLeft:'5%'}}>
                                         <i className="icon_icon fas fa-sign-out-alt"></i>

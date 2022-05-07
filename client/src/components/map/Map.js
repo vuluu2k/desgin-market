@@ -23,7 +23,7 @@ export default function Map(props) {
             <AnyReactComponent
                 lat={21.0541825}
                 lng={105.731848}
-                text="MarketDesign HaUi"
+                text="DesignMarket"
             />
         </GoogleMapReact>
         </div>
