@@ -9,7 +9,7 @@ export default function NavBar({products,news}) {
     const {getProduct}=useContext(ProductContext)
 
     return (
-        <Navbar style={{zIndex:'1'}} bg="dark" expand="lg" variant="dark" className="shadow" sticky="top" >
+        <Navbar style={{zIndex:'1'}} bg="dark" expand="lg" variant="light" sticky="top" >
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -24,8 +24,7 @@ export default function NavBar({products,news}) {
                     </Nav>
                     <Form inline>
                         <div className="w-100 d-flex justify-content-center">
-                            <FormControl type="text" placeholder="Tìm kiếm..." onChange={e=>getProduct(e.target.value)} className="mr-sm-2" size="sm"/>    
-                            <Button variant="outline-success" className="font-custom" size="sm"><i className="fas fa-search" ></i></Button>  
+                            <FormControl type="text" placeholder="Tìm kiếm ..." onChange={e=>getProduct(e.target.value)} className="mr-sm-2" size="sm"/>    
                         </div>
                     </Form>
                 </Navbar.Collapse>

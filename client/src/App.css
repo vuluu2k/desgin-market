@@ -50,3 +50,7 @@
 .bg-dark{
 	background-image: linear-gradient(90deg,#9796f0,#fbc7d4);
 }
+
+.modal-content{
+	background:linear-gradient(90deg,#9796f0,#fbc7d4) !important ;
+}
