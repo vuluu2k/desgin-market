@@ -12,17 +12,6 @@ export default function Print() {
       } = useContext(ProductContext);
       const productcategory = products.filter(item=>item.category==='print')
     
-    
-      const [currentPage, setCurrentPage] = useState(1);
-        const [productsPerPage] = useState(8);
-        // Get Current Products
-        const indexOfLastProduct = currentPage * productsPerPage ;
-        const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-        const currentProducts = productcategory.slice(indexOfFirstProduct,indexOfLastProduct);
-        // ChangePage
-        const paginate = pageNumber => {
-            setCurrentPage(pageNumber);
-        }
       return (
         <Container style={{ padding: "36px 0" }}>
           
@@ -35,15 +24,7 @@ export default function Print() {
                     </div>
                     <PleaseBuyACar products={productcategory} />
                 </Container>
-         
-            <div className="d-flex justify-content-center pt-5" >
-                <PaginationCus
-                    productsPerPage={productsPerPage}
-                    totalProducts={productcategory.length}
-                    paginate={paginate}
-                    currentPage={currentPage}
-                />
-            </div>
+
      
         </Container>
         
