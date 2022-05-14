@@ -94,7 +94,9 @@ export default function Loading({PageRoute}) {
     return (
         <>
             <Header products={products} />
-                {body}
+                <div style={{paddingTop:90}}>
+                    {body}
+                </div>
             <Footer products={products} image={image} />
             <ToastQuote />
             <QuoteModal />

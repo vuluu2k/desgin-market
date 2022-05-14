@@ -161,7 +161,7 @@ export default function UpdateCarModal() {
                                             onChange={onChangeUpdateCarForm}
                                             >
                                             <option>--Vui lòng chọn danh mục--</option>
-                                            <option value="graphics">Ấn phẩm truyền thống </option>
+                                            <option value="graphics">Ấn phẩm truyền thông </option>
                                             <option value="logo">nhận diện thương hiệu</option>
                                             <option value="print">In ấn</option>
                                             <option value="font">Font chữ</option>

@@ -33,9 +33,11 @@ export default function AdminLogin() {
         <div className="full-height">
             <div className="dark-overlay">
                 <div className="login-inner">
-                    <h2>Admin</h2>
-                    <h5>Đăng nhập để quản lí shop của bạn</h5>
-                    <Form className="mb-4" style={{ width: '30%'}} onSubmit={login}>
+                    <div style={{background:'rgba(0,0,0,0.2)',padding:25,borderRadius:8 }}>
+
+                    <h2>❤️❤️❤️ Đi tới trình quản lý ❤️❤️❤️</h2>
+                    <h5>----👍😍😍😍😍👍----</h5>
+                    <Form className="mb-4"  onSubmit={login}>
                         <Form.Group className="mb-2">
                             <Form.Control type='text' placeholder='Tài khoản' name='nameAccount' required value={nameAccount} onChange={onChangeLoginForm} />
                         </Form.Group>
@@ -43,8 +45,9 @@ export default function AdminLogin() {
                             <Form.Control type='password' className="mb-2"  placeholder='Mật khẩu' name='passwordAccount' required value={passwordAccount} onChange={onChangeLoginForm} />
                             <AlertMessage info={alert}/>
                         </Form.Group>
-                        <Button variant='success' type='submit'>Đăng nhập</Button>
+                        <Button variant='danger' type='submit' block>Đăng nhập</Button>
                     </Form>
+                    </div>
                 </div>
             </div>
         </div>

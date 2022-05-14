@@ -242,7 +242,7 @@ export default function AddCarModal() {
                           onChange={onChangeNewCarForm}
                         >
                           <option>--Vui lòng chọn danh mục--</option>
-                          <option value="graphics">Ấn phẩm truyền thống </option>
+                          <option value="graphics">Ấn phẩm truyền thông </option>
                           <option value="logo">Nhận diện thương hiệu</option>
                           <option value="print">In ấn</option>
                           <option value="font">Font chữ</option>

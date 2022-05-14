@@ -9,7 +9,8 @@ export default function NavBar({products,news}) {
     const {getProduct}=useContext(ProductContext)
 
     return (
-        <Navbar style={{zIndex:'1'}} bg="dark" expand="lg" variant="light" sticky="top" >
+        
+        <Navbar style={{zIndex:'1',position: 'sticky'}} bg="dark" expand="lg" variant="light" sticky="top" >
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

@@ -20,7 +20,7 @@ export default function ViewCarModal() {
     const categoryView=()=>{
         
         if(product.category==="graphics"){
-            return "Ấn phẩm truyền thống"
+            return "Ấn phẩm truyền thông"
         }
         if(product.category==="logo"){
             return "Nhận diện thương hiệu"
