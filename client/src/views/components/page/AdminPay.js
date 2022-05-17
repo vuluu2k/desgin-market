@@ -60,6 +60,7 @@ export default function AdminPay() {
                                     <th>STT</th>
                                     <th>Khách hàng</th>
                                     <th>Số điện thoại</th>
+                                    <th>Email</th>
                                     <th>Hình thức</th>
                                     <th>Thành phố</th>
                                     <th></th>
@@ -72,6 +73,7 @@ export default function AdminPay() {
                                                 <td>{index+1}</td>
                                                 <td>{order.lastName +" "+ order.firstName}</td>
                                                 <td>{order.numberPhone}</td>
+                                                <td>{order.email}</td>
                                                 <td>{order.pay==="payOnline" ? "Thanh toán online":"Thanh toán tại cửa hàng"}</td>
                                                 <td>{order.city}</td>
                                                 <td className="d-flex justify-content-center">
