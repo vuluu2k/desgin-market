@@ -12,7 +12,7 @@ export default function InforContact({css}) {
             <br/>
             <i className="fa-solid fa-envelope" style={{color:"Black"}}></i>
             <span>
-                <a href="mailto:laptrinhvn2s@gmail.com" className={css}> duongthuytien025@gmail.com</a>    
+                <a href="mailto:duongthuytien025@gmail.com" className={css}> duongthuytien025@gmail.com</a>    
             </span>
             <br/>
             <i className="fa-solid fa-link" style={{color:"Black"}}></i> https://designmarket2k.netlify.app/home

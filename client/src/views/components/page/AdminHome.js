@@ -56,11 +56,35 @@ export default function AdminHome() {
             </div>
         );
     }
+
+    const productChartCount = daysLength().map(item=>{
+        if(Object.keys(productChart).includes(item)){
+            return productChart[item].length;
+        }
+        return 0;
+    })
+
+    const quoteChartCount=daysLength().map(item=>{
+        if(Object.keys(quoteChart).includes(item)){
+            return quoteChart[item].length;
+        }
+        return 0;
+    })
+
+    const orderChartConut=daysLength().map(item=>{
+        if(Object.keys(orderChart).includes(item)){
+            return orderChart[item].length;
+        }
+        return 0;
+    })
+
+
+
     return (
         <div className="container">
             <Row >
                 <Col xs={12} md={8}> <Row style={{ padding: 16 }}>
-                    <h4>Thống kê dữ liệu shop của bạn >>></h4>
+                    <h4>Thống kê dữ liệu shop của bạn</h4>
                     <Chart
                         type='line'
                         datasetIdKey="id"
@@ -75,13 +99,7 @@ export default function AdminHome() {
                                     fill: "start",
                                     id: 1,
                                     label: "Sản phẩm",
-                                    data: Object.keys(productChart).map((key) => {
-                                        if (daysLength().includes(key)) {
-                                            return productChart[key].length;
-                                        } else {
-                                            return 0;
-                                        }
-                                    }),
+                                    data: productChartCount,
                                 },
                                 {
                                     backgroundColor: "rgb(0, 128, 0,0.4)",
@@ -91,13 +109,7 @@ export default function AdminHome() {
                                     fill: "start",
                                     id: 2,
                                     label: "Báo giá",
-                                    data: Object.keys(quoteChart).map((key) => {
-                                        if (daysLength().includes(key)) {
-                                            return quoteChart[key].length;
-                                        } else {
-                                            return 0;
-                                        }
-                                    }),
+                                    data: quoteChartCount,
                                 },
                                 {
                                     backgroundColor: "rgb(255, 0, 0,0.4)",
@@ -107,13 +119,7 @@ export default function AdminHome() {
                                     fill: "start",
                                     id: 3,
                                     label: "Đơn hàng",
-                                    data: Object.keys(orderChart).map((key) => {
-                                        if (daysLength().includes(key)) {
-                                            return orderChart[key].length;
-                                        } else {
-                                            return 0;
-                                        }
-                                    }),
+                                    data: orderChartConut,
                                 },
                             ],
                         }}

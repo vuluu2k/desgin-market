@@ -80,6 +80,9 @@ export default function AdminPay() {
                                                     <a href={`tel:${order.numberPhone}`}>
                                                         <Button variant="outline-primary" size="sm" ><i className="fas fa-phone"></i></Button>
                                                     </a>
+                                                    <a href={`mailTo:${order.email}`}>
+                                                        <Button variant="outline-info" size="sm" ><i className="fa-solid fa-envelope"></i></Button>
+                                                    </a>
                                                     <Button onClick={()=>choseOrderView(order._id)} variant="outline-success" size="sm"><i className="far fa-eye"></i></Button>
                                                     <Button onClick={()=>choseOrderUpdate(order._id)} variant="outline-info" size="sm"><i className="fas fa-pencil-alt"></i></Button>
                                                     <Button onClick={()=>setShowDelete({show:true,idOrder:order._id})} variant="outline-danger"size="sm" ><i className="fas fa-trash-alt"></i></Button>
@@ -114,6 +117,9 @@ export default function AdminPay() {
                                                 <td className="d-flex justify-content-center">
                                                     <a href={`tel:${order.numberPhone}`}>
                                                         <Button variant="outline-primary" size="sm" ><i className="fas fa-phone"></i></Button>
+                                                    </a>
+                                                    <a href={`mail:${order.email}`}>
+                                                        <Button variant="outline-info" size="sm" ><i className="fa-solid fa-envelope"></i></Button>
                                                     </a>
                                                     <Button onClick={()=>choseOrderView(order._id)} variant="outline-success" size="sm"><i className="far fa-eye"></i></Button>
                                                     <Button onClick={()=>choseOrderUpdate(order._id)} variant="outline-info" size="sm"><i className="fas fa-pencil-alt"></i></Button>

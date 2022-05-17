@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row,Col,Button,Card,Spinner} from 'react-bootstrap';
+import {Row,Col,Button,Card,Spinner,Toast} from 'react-bootstrap';
 import {useContext,useEffect,useState} from 'react';
 import {ProductContext} from '../../../contexts/ProductContext';
 import AddCarModal from '../../../components/modal/AddCarModal'
@@ -9,13 +9,22 @@ import ConfirmModal from '../../../components/modal/ConfirmModal'
 import PaginationProduct from '../../../components/pagination/PaginationProduct';
 export default function AdminProduct() {
     const {
-        productState:{products,productLoading,productsLoading},
+        productState:{products,productLoading,productsLoading,message},
         getProduct,setShowAddCar,
         showDelCar:{show,productId},
         setShowDelCar,deleteProduct,
         getProductDetail,setShowUpdateCar,
         setShowViewCar
     }=useContext(ProductContext);
+
+    const [showToast,setShowToast]=useState(false)
+
+    useEffect(()=>{
+        if(message!=='')
+            setShowToast(true)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[message])
+
     useEffect(()=>{
         getProduct()
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -92,6 +101,20 @@ export default function AdminProduct() {
            <ConfirmModal title="Xác nhận" content="Bạn chắc chắn muốn xoá" show={show} onClick={()=>handleDelProduct()} onClose={handleClose} />
            {productLoading===false&&<UpdateCarModal/>}
            {productLoading===false&&<ViewCarModal />}
+           <Toast 
+            style={{position:'fixed',top:'10%',right:'10px',zIndex:'2'}} 
+            onClose={()=>setShowToast(false)} 
+            show={showToast}
+            className="bg-dark text-white" 
+            delay={2000} 
+            autohide 
+            >
+                <Toast.Header>
+                    <strong className="mr-auto">👌 Desgin Market Thông báo!</strong>
+                    <small> 12s trước</small>
+                </Toast.Header>
+                <Toast.Body>{message}</Toast.Body>
+            </Toast>
         </div>
     )
 }
