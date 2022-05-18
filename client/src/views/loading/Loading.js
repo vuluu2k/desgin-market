@@ -40,7 +40,7 @@ export default function Loading({PageRoute}) {
     useEffect(() => {
         getImage()
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    }, [image])
     useEffect(()=>{
         getProduct()
         
