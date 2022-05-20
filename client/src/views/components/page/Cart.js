@@ -28,7 +28,7 @@ export default function Cart() {
                             <tr style={{textTransform: 'uppercase',borderBottom:'2px solid #E3E3E3'}}>
                                 <th colSpan="2" style={{padding:"12px 0"}}>Sản phẩm</th>
                                 <th>Giá</th>
-                                <th>Số lương</th>
+                                <th style = {{ display:'none'}}>Số lượng</th>
                                 <th>Tổng</th>
                                 <th></th>
                             </tr>
@@ -45,7 +45,7 @@ export default function Cart() {
                                     <td className="text-red">
                                             {formatToCurrency(cart.product.costCar)}<sup>₫</sup>
                                     </td>
-                                    <td>
+                                    <td style = {{ display:'none'}}>
                                         <ButtonQuantityCart cart={cart} />
                                     </td>
                                     <td className="text-red">{formatToCurrency(cart.quantity*cart.product.costCar)}<sup>₫</sup></td>
@@ -77,7 +77,7 @@ export default function Cart() {
                         </thead>
                         <tbody className=" font-weight-bolder">
                             <tr style={{borderBottom:'2px solid #E3E3E3'}}>
-                                <td>Tổng phụ</td>
+                                <td>Tổng tiền:</td>
                                 <td className="text-red">{formatToCurrency(sumMoney())}<sup>₫</sup></td>
                             </tr>
                             <tr style={{borderBottom:'2px solid #E3E3E3'}}>

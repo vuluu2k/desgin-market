@@ -31,7 +31,7 @@ export default function CartModal() {
               )):<h6 align="center">Chưa có sản phẩm nào được thêm vào </h6> }
               <hr />
                 <div align="center" style={{fontWeight:'bold'}}>
-                  Tổng phụ: <span style={{color:'#C82333'}}>{formatToCurrency(sumMoney())}<sup>₫</sup></span>
+                  Tổng tiền: <span style={{color:'#C82333'}}>{formatToCurrency(sumMoney())}<sup>₫</sup></span>
                 </div>
           </Modal.Body>
           <Modal.Footer>

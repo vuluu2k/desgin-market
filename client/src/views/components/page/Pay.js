@@ -227,7 +227,7 @@ export default function Pay() {
                                         </tr>
                                     }
                                     <tr style={{borderBottom:'2px solid #E3E3E3'}}>
-                                        <td>Tổng phụ</td>
+                                        <td>Tổng tiền:</td>
                                         <td className="text-red">{formatToCurrency(sumMoney())}<sup>₫</sup></td>
                                     </tr>
                                     <tr style={{borderBottom:'2px solid #E3E3E3'}}>
