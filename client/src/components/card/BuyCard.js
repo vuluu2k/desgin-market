@@ -11,7 +11,6 @@ export default function BuyCard({product}) {
     }
     const handeBuy=()=>{
         addToCart(product._id)
-        setShowCart(true)
     }
     return (
         <Card border="light" style={{ width: '100%'}}>

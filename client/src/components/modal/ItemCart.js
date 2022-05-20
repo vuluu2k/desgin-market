@@ -18,7 +18,7 @@ export default function ItemCart({cart}) {
                             <Card.Title as="h6" style={{width: '100%'}} >{cart.product.nameCar}</Card.Title>
                             <div className="d-flex align-items-center">
                                 <div>
-                                    {cart.quantity} x <span style={{color:'#C82333',fontWeight:'500'}}>{formatToCurrency(cart.product.costCar)}<sup>₫</sup></span>
+                                    <span style={{color:'#C82333',fontWeight:'500'}}>{formatToCurrency(cart.product.costCar)}<sup>₫</sup></span>
                                 </div>
                             </div>
                         </div>

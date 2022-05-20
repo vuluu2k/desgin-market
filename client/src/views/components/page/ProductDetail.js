@@ -23,7 +23,6 @@ export default function ProductDetail({products,productsLoading}) {
     }
     const handeBuy=()=>{
         addToCart(productSlug._id)
-        setShowCart(true)
     }
     const categoryView=()=>{
         

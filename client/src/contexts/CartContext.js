@@ -29,13 +29,16 @@ const CartContextProvider=({children})=>{
         
         
         if(item){
-            item.quantity+=1;
+            alert('sản phẩm đã có trong giỏ hàng')
+            return false
         }
         else
         {
             cart.push({product,quantity});
         }
         localStorage.setItem(LOCAL_STORAGE_PRODUCTS_CART_NAME,JSON.stringify(cart))
+        setShowCart(true)
+        return true;
     }
     const getCart=()=>{
         return JSON.parse(localStorage.getItem(LOCAL_STORAGE_PRODUCTS_CART_NAME))
